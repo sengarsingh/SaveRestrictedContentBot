@@ -1,0 +1,23 @@
+services:
+- type: web
+  name: Save restricted content bot
+  runtime: docker
+  repo: https://github.com/sengarsingh/sav
+  plan: free
+  envVars:
+  - key: forcesub
+    sync: false
+  - key: auth
+    sync: false
+  - key: session_string
+    sync: false
+  - key: API_HASH
+    sync: false
+  - key: BOT_TOKEN
+    sync: false
+  - key: API_ID
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: Dockerfile
+  autoDeploy: false
