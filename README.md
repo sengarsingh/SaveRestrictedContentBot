@@ -93,6 +93,11 @@ Buildpacks for manual deploy:
 - `https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git`
 
 Deploy your bot on `Okteto` [Useless]
+
+
+## Deploy To Render                  
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/sengarsingh/SaveRestrictedContentBot)
   
 Tutorial for okteto - [click here](https://telegra.ph/Okteto-Deploy-04-01)
 
